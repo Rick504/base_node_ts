@@ -13,11 +13,6 @@ app.use(express.json());
 
 app.use('/', routes);
 
-// Rota principal
-app.get('/', (req, res) => {
-  res.json({ mensagem: 'Bem-vindo ao backend em node!' })
-});
-
 app.use((req, res, next) => {
   res.setHeader('Access-Control-Allow-Origin', 'http://localhost:5173');
   res.header(

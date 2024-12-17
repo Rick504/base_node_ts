@@ -27,6 +27,7 @@ Antes de começar, você precisará de:
 
    ```bash
    PORT=5000
+   TEST_MODE=true
    ```
 
    Isso configura a porta em que o servidor irá rodar. Você pode alterar o valor de PORT conforme sua necessidade.
